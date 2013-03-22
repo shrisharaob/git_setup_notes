@@ -1,0 +1,14 @@
+cd <directory>
+git init % set up git skeleton
+git add .  % all files in the directoty under version control
+git commit -m ' message' % commit the files 
+git remote add origin <URL>  
+% might have to change the .git/congif url to ssh://git@github.. if push fials
+git push  
+%% if this fails, try 
+git checkout master
+git push origin +HEAD
+
+
+
+
